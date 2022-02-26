@@ -1,10 +1,10 @@
 # Title (replace with your title)
 
-What IS Regex?
+Regular Expression
 
 ## Summary
 
-Regex, or regular expression, is a sequence of characters used for searching and editing strings.
+Regex is a sequence of characters used for searching and editing strings.
 
 ## Table of Contents
 
@@ -75,12 +75,36 @@ Types:
 
 ### Greedy and Lazy Match
 
+GREEDY
+Matches the pattern as much as possible, creating a bigger string.
+
+LAZY 
+Matches the pattern as little as possible, creating a smaller string.
+
 ### Boundaries
+
+Matches words.
+
+Types:
+
+(\b)    Searches for word characters, alphanumerically.
+(\B)    Searches for all characters.
 
 ### Back-references
 
+(\1)    Matches text that was previously matched.
+
 ### Look-ahead and Look-behind
+
+LOOK-AHEAD
+(?=)    Sets what follows the current position.
+
+LOOK-BEHIND
+(?<=)   Sets what precedes the current position.
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Adam Campeau
+https://github.com/AdamCampeau
+
+(2022-02-26)
